@@ -1,0 +1,13 @@
+* Login + Ikke bruger 
+
+* Opret bruger 
+
+* Profil med oplysninger om dine rettighedder 
+
+
+1 - ADMIN
+2 - TRÆNER
+3 - MEDLEM
+
+
+

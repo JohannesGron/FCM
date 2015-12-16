@@ -1,0 +1,312 @@
+body {
+	font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table th{
+    background-color: green;
+    color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+table {
+box-shadow: 5px 5px 50px #888888;
+	border:1px solid #000000;
+}
+
+caption {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+    margin-top:20px;
+}
+
+
+option {
+	width: 100%;
+}
+
+a.button.icon {
+padding-left: 11px;
+}
+
+a.button.icon span{
+padding-left: 36px;
+background: url("delete.png") no-repeat 0 -4px;
+}
+
+a.button.icon.chat span {
+background-position: 0px -36px;
+}
+
+.vorktoj, #delete {
+	border: none;
+	background-color: transparent;
+}
+
+#regibruger {
+	margin-top: 20px;
+    margin-left: 20px;
+}
+
+#tilfoj, #icon {
+	margin-top: 10px;
+}
+
+#icon {
+    margin-left:20px;
+    margin-bottom:125px;
+}
+
+#bruger, .selecttab {
+	font-size: 16px;
+}
+
+button {
+	font-size: 15px;
+}
+
+#udfor {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+
+/*DIALOG*/
+#popup, .bMulti {
+    background-color: #f8fbfd;
+    border-radius: 4px 4px 4px 4px;
+    color: #111;
+    display: none;
+    width: 728px;
+    height: 521px;
+    padding: 25px;
+}
+
+.button.b-close, .button.bClose {
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 10px;
+    top: 10px;
+}
+
+.button {
+    background-image: url("close.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.button:hover {
+    -webkit-filter: brightness(0%);
+}
+
+
+/*LOGIN*/
+
+.left {
+    float: left;
+    padding-right:60px;
+    width:36%;
+    border-right: 1px solid #e0e0e0;
+    margin-left: 40px;
+}
+
+.right {
+    float: right;
+    padding-left:60px;
+    width:36%;
+    margin-right: 40px;
+}
+
+h3 {
+    color:#21759b;
+    text-align: center;
+}
+
+.input {
+    font-size: 16px;
+    height: 34px;
+    padding-left:25px;
+    width:100%;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#envelope {
+    position: absolute;
+    top:95px;
+    left: 0px;
+    
+
+}
+
+
+
+
+/*BODY*/
+a:link{
+    text-decoration: none;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#00BFFF), to(green)) fixed;
+}
+
+#wrapper{
+    background-color:white;
+    width: 80%;
+    height: 100%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+
+#banner{
+    background: -webkit-gradient(linear, left top, left bottom, from(#00BFFF), to(green)) fixed;
+    float: left;
+    width: 100%;
+    height: 200px;
+    }
+    
+    h1{
+    text-align: center;
+    font-size: 500%;
+    font-style: normal;
+    font-weight: bold;
+    font-family:arial black;
+    color:white;
+    }
+    
+    #menulinje{
+    float: left;
+    width: 99.5%;
+    height: 43px;
+    margin:0px;
+    background-color: #00CC00;
+    position: relative;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #00CC00;
+    }
+
+    #hjem{
+    font-weight: 100;
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 43px;
+    background-color: #00CC00;
+    color: white;
+    font-style: normal;
+    font-family:monospace;
+    font-size: 200%;
+    margin: 0px;
+    transition: all 0.5s ease;
+
+    }
+        
+        
+    #medlemmere{
+    font-weight: 100;
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 43px;
+    background-color: #00CC00;
+    color: white;
+    font-style: normal;
+    font-family:monospace;
+    font-size: 200%;
+    margin:0px;
+    transition: all 0.5s ease;
+
+    }
+        
+        
+   span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 43px;
+    }
+
+
+    #login{
+    font-weight: 100;
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 43px;
+    background-color: #00CC00;
+    color: white;
+    font-style: normal;
+    font-family:monospace;
+    font-size: 200%;
+    margin: 0px;
+    transition: all 0.5s ease;
+    }
+        
+        
+    #omos{
+    font-weight: 100;
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 43px;
+    background-color: #00CC00;
+    color: white;
+    font-style: normal;
+    font-family:monospace;
+    font-size: 200%;
+    margin: 0px;
+    transition: all 0.5s ease;
+    }
+
+
+    #hjem:hover{
+    background-color: #48FF48;
+    color:#FFFFFF;
+    }
+
+    #medlemmere:hover{
+    background-color: #48FF48;
+    color:#FFFFFF;
+    }
+
+    #login:hover{
+    background-color: #48FF48;
+    color:#FFFFFF;
+    }   
+        
+    #omos:hover{
+    background-color: #48FF48;
+    color:#FFFFFF;
+    }   
